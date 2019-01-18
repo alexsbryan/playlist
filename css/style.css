@@ -9,9 +9,18 @@ h1 {
     border-bottom: 5px solid black;
 }
 
+.item {
+  word-break: break-all;
+}
+
 .column {
     width: 18%;
     padding: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 #images img {
